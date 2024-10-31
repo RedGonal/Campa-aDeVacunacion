@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: rgb(238, 250, 255);
+    background-image: url("vacuna.png");
+    background-size: 15vh, 15vh;
+    overflow-x: hidden;
+}
+
+#byLol {
+    position: fixed; 
+    padding: 0; 
+    margin: 0; 
+    pointer-events: none; 
+    width: 98.5vw;
+    left: 0; 
+    top: 96vh; 
+    font: 3vh Ubuntu; 
+    font-weight: bold;
+    text-align: right;
+    opacity: 0.35;
+    z-index: 100;
+}
+
+#title {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+    left: 0;
+    top: 5vh;
+    width: 100vw;
+    height: 10vh;
+    font: 5vh Ubuntu;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+.lol {
+    position: relative;
+    margin-bottom: 2vh;
+    width: 50vw;
+    left: calc(24.5vw - 8px);
+    height: 15vh;
+    top: calc(34vh - 8px);
+    border: solid black 0.2vh;
+    border-radius: 0.5vh;
+    background-color: white;
+    transition: box-shadow 0.25s;
+    background-size: 7.5vh, 7.5vh;
+}
+
+.lol label {
+    position: absolute;
+    left: 0;
+    top: 1vh;
+    width: 100%;
+    height: 5vh;
+    font: 3vh Ubuntu;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.lol div {
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5.5vh;
+}
+
+.lol p {
+    position: relative;
+    left: 0.7vh;
+    top: -1.75vh;
+    width: 100%;
+    font: 2vh Ubuntu;
+}
+
+.lol:hover {
+    box-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.5);
+}
+
+.red {
+    background-color: rgb(255, 150, 150);
+}
+
+.ama {
+    background-color: rgb(255, 235, 150);
+}
+
+.az {
+    background-color: rgb(150, 175, 255);
+}
+
+.ver {
+    background-color: rgb(150, 255, 150);
+}
